@@ -1,6 +1,6 @@
 Package: RcppClassicExamples
 Title: Examples using RcppClassic to interface R and C++ 
-Version: 0.1.1
+Version: 0.1.2
 Date: $Date$
 Author: Dirk Eddelbuettel and Romain Francois, based on code written 
  during 2005 and 2006 by Dominick Samperi 
@@ -13,7 +13,8 @@ Description: The Rcpp package contains a C++ library that facilitates the
  the older, deprecated API. There is also a corresponding package
  RcppExamples package with examples for the newer, current API which we
  strongly recommend as the basis for all new development.
-Depends: R (>= 2.15.2), Rcpp (>= 0.10.2), RcppClassic (>= 0.9.3)
+Depends: R (>= 2.15.2)
+Imports: Rcpp (>= 0.10.2), RcppClassic (>= 0.9.3)
 LinkingTo: Rcpp, RcppClassic
 Suggests: RUnit 
 URL: http://dirk.eddelbuettel.com/code/rcpp.html, http://romainfrancois.blog.free.fr/index.php?category/R-package/Rcpp

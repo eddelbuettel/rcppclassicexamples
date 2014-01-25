@@ -1,5 +1,8 @@
 useDynLib(RcppClassicExamples)
 
+import(Rcpp)
+import(RcppClassic)
+
 export(RcppExample,
        print.RcppExample,
        RcppDateExample,
