@@ -1,6 +1,8 @@
 2018-03-15  Dirk Eddelbuettel  <edd@debian.org>
 
-	* NAMESPACE: registered S3 method
+	* DESCRIPTION (Version, Date): Release 0.1.2
+
+	* NAMESPACE: registered S3 print method for RcppExample
 
 	* man/RcppDate.Rd: Update to https URL
 	* man/RcppExample.Rd: Idem
@@ -17,8 +19,6 @@
 	* R/RcppVectorExample.R: Idem
 
 2014-01-25  Dirk Eddelbuettel  <edd@debian.org>
-
-	* DESCRIPTION: Version 0.1.2
 
 	* DESCRIPTION: Switch Depends: to Imports: for Rcpp, RcppClassic
 	* NAMESPACE: Add import() for Rcpp, RcppClassic
