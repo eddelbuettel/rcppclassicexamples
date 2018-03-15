@@ -1,5 +1,7 @@
 2018-03-15  Dirk Eddelbuettel  <edd@debian.org>
 
+	* src/init.c: Added R_init_* registration
+
 	* man/RcppDate.Rd: Update to https URL
 	* man/RcppExample.Rd: Idem
 	* man/RcppParams.Rd: Idem
