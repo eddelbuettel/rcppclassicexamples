@@ -1,3 +1,10 @@
+2018-03-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* man/RcppDate.Rd: Update to https URL
+	* man/RcppExample.Rd: Idem
+	* man/RcppParams.Rd: Idem
+	* inst/NEWS.Rd: Idem
+
 2014-01-25  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION: Version 0.1.2

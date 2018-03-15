@@ -1,6 +1,6 @@
 \name{NEWS}
 \title{News for Package \pkg{RcppClassicExamples}}
-\newcommand{\cpkg}{\href{http://CRAN.R-project.org/package=#1}{\pkg{#1}}}
+\newcommand{\cpkg}{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
 \section{Changes in version 0.1.1 (2012-12-30)}{
   \itemize{
