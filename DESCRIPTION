@@ -17,5 +17,6 @@ Depends: R (>= 2.15.2)
 Imports: Rcpp (>= 0.10.2), RcppClassic (>= 0.9.3)
 LinkingTo: Rcpp, RcppClassic
 Suggests: RUnit 
-URL: http://dirk.eddelbuettel.com/code/rcpp.html
+URL: https://github.com/eddelbuettel/rcppclassicexamples, https://dirk.eddelbuettel.com/code/rcpp.classic.html
+BugReports: https://github.com/eddelbuettel/rcppclassicexamples/issues
 License: GPL (>= 2)
