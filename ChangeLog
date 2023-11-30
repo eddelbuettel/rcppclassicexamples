@@ -1,5 +1,8 @@
 2023-11-28  Dirk Eddelbuettel  <edd@debian.org>
 
+	* src/Makevars: Remove long superfluous Rcpp link instruction
+	* src/Makevars.win: Idem
+
 	* .github/workflows/ci.yaml (jobs): Update to actions/checkout@v4
 
 2022-11-10  Dirk Eddelbuettel  <edd@debian.org>
