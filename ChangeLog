@@ -1,5 +1,12 @@
 2023-11-28  Dirk Eddelbuettel  <edd@debian.org>
 
+	* src/classicRcppParamsExample.cpp: Add "%s" to Rf_error() call
+	* src/classicRcppVectorExample.cpp: Idem
+	* src/classicRcppExample.cpp: Idem
+	* src/classicRcppStringVectorExample.cpp: Idem
+	* src/classicRcppMatrixExample.cpp: Idem
+	* src/classicRcppDateExample.cpp: Idem
+
 	* src/Makevars: Remove long superfluous Rcpp link instruction
 	* src/Makevars.win: Idem
 
