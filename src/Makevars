@@ -3,4 +3,4 @@
 ## Use the R_HOME indirection to support installations of multiple R version
 #PKG_LIBS = `$(R_HOME)/bin/Rscript -e "RcppClassic:::LdFlags()" `
 PKG_LIBS = `$(R_HOME)/bin/Rscript -e "cat(system.file('lib', 'libRcppClassic.a', package='RcppClassic'))"`
-PKG_CFLAGS = -std=gnu23
+PKG_CFLAGS = -std=gnu2x
