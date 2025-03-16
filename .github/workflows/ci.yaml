@@ -26,7 +26,9 @@ jobs:
         uses: eddelbuettel/github-actions/r-ci@master
 
       - name: Dependencies
-        run: ./run.sh install_deps
+        run: |
+          ./run.sh install_deps
+          ./run.sh install_github eddelbuettel/rcppclassic
 
       - name: Test
         run: ./run.sh run_tests

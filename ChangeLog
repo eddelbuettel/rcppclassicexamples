@@ -4,6 +4,8 @@
 
 	* DESCRIPTION: Depend on RcppClassic (>= 0.9.13.1)
 
+	* .github/workflows/ci.yaml: Use install_github for RcppClassic for now
+
 2025-03-14  Dirk Eddelbuettel  <edd@debian.org>
 
 	* .github/workflows/ci.yaml: Switch to r-ci with implicit bootstrap
