@@ -1,10 +1,12 @@
 2025-03-16  Dirk Eddelbuettel  <edd@debian.org>
 
-	* src/classicRcppExample.cpp: No contain factor parts of example
+	* src/classicRcppExample.cpp: No longer contain factor parts of example
 
 	* DESCRIPTION: Depend on RcppClassic (>= 0.9.13.1)
 
 	* .github/workflows/ci.yaml: Use install_github for RcppClassic for now
+
+	* src/Makevars: Default to static linking
 
 2025-03-14  Dirk Eddelbuettel  <edd@debian.org>
 
