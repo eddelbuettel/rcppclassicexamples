@@ -233,42 +233,26 @@ RcppExport SEXP Rcpp_Example(SEXP params, SEXP nlist,
 	// the the R function data.frame() will return a data frame with
 	// the specified column names and data types. The first row added
 	// determines the types for all columns.
-	int numCol=4;
+	int numCol=3;
 	std::vector<std::string> colNames(numCol);
 	colNames[0] = "alpha"; // column of strings
 	colNames[1] = "beta";  // column of reals
-	colNames[2] = "gamma"; // factor column
-	colNames[3] = "delta"; // column of Dates
+	colNames[2] = "gamma"; // column of Dates
 	RcppFrame frame(colNames);
-
-	// Third column will be a factor. In the current implementation the
-	// level names are copied to every factor value (and factors
-	// in the same column must have the same level names). The level names
-	// for a particular column will be factored out (pardon the pun) in
-	// a future release.
-	int numLevels = 2;
-	std::string *levelNames = new std::string[2];
-	levelNames[0] = std::string("pass"); // level 1
-	levelNames[1] = std::string("fail"); // level 2
 
 	// First row (this one determines column types).
 	std::vector<ColDatum> row1(numCol);
 	row1[0].setStringValue("a");
 	row1[1].setDoubleValue(3.14);
-	row1[2].setFactorValue(levelNames, numLevels, 1);
-	row1[3].setDateValue(RcppDate(7,4,2006));
+	row1[2].setDateValue(RcppDate(7,4,2006));
 	frame.addRow(row1);
 
 	// Second row.
 	std::vector<ColDatum> row2(numCol);
 	row2[0].setStringValue("b");
 	row2[1].setDoubleValue(6.28);
-	row2[2].setFactorValue(levelNames, numLevels, 1);
-	row2[3].setDateValue(RcppDate(12,25,2006));
+	row2[2].setDateValue(RcppDate(12,25,2006));
 	frame.addRow(row2);
-
-	// Done with levelNames.
-	delete [] levelNames;
 
 	// Test MyRVectorFunction defined above...
 	MyRVectorFunc vfunc(fnvec);
