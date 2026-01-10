@@ -1,3 +1,7 @@
+2026-01-09  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Switch to actions/checkout@v6
+
 2025-03-16  Dirk Eddelbuettel  <edd@debian.org>
 
 	* src/classicRcppExample.cpp: No longer contain factor parts of example
