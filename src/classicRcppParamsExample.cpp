@@ -65,8 +65,8 @@ RcppExport SEXP classicRcppParamsExample(SEXP params) {
 	exceptionMesg = copyMessageToR("unknown reason");
     }
     
-    if(exceptionMesg != NULL)
-	Rf_error("%s", exceptionMesg);
+    if (exceptionMesg != NULL)
+        Rcpp::stop("%s", exceptionMesg);
 
     return rl;
 }
