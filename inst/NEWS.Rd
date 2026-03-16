@@ -2,6 +2,17 @@
 \title{News for Package \pkg{RcppClassicExamples}}
 \newcommand{\cpkg}{\href{https://CRAN.R-project.org/package=#1}{\pkg{#1}}}
 
+\section{Changes in version 0.1.4 (2026-03-16)}{
+  \itemize{
+    \item Continuous integration has been updated several times
+    \item DESCRIPTION now uses Authors@R
+    \item Static linking is enforced, RcppClassic (>= 0.9.14) required
+    \item Calls to \code{Rf_error()} have been replaced with
+    \code{Rcpp::stop()}
+    \item Updated versioned dependencies
+  }
+}
+
 \section{Changes in version 0.1.3 (2023-11-30)}{
   \itemize{
     \item Update \code{Rf_error()} call to not tickle \code{-Wformat}
