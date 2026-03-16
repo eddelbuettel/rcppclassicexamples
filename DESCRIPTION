@@ -15,8 +15,7 @@ Description: The 'Rcpp' package contains a C++ library that facilitates the
  the older, deprecated API. There is also a corresponding package
  'RcppExamples' with examples for the newer, current API which we
  strongly recommend as the basis for all new development.
-Depends: R (>= 2.15.2)
-Imports: Rcpp (>= 0.10.2), RcppClassic (>= 0.9.13.1)
+Imports: Rcpp, RcppClassic (>= 0.9.14)
 LinkingTo: Rcpp, RcppClassic
 Suggests: RUnit 
 URL: https://github.com/eddelbuettel/rcppclassicexamples, https://dirk.eddelbuettel.com/code/rcpp.classic.html
